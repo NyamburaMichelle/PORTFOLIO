@@ -6,7 +6,7 @@ export default function Achievements() {
     <>
     <Navbar />
     <div>
-      <h1 className="text-5xl">Achievements</h1>
+      <h1 className="text-5xl text-center mt-10 font-bold text-blue-400 ">Achievements</h1>
     </div>
     <Footer />
     </>

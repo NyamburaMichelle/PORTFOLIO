@@ -6,7 +6,7 @@ export default function Education() {
     <>
     <Navbar />
     <div>
-      <h1 className="text-5xl">Education</h1>
+      <h1 className="text-5xl text-center mt-10 font-bold text-blue-400 ">Education</h1>
     </div>
     <Footer />
     </>

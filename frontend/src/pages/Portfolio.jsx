@@ -28,7 +28,7 @@ export default function Portfolio() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 4000); // 2 seconds interval
+    }, 5000); // 2 seconds interval
 
     return () => clearInterval(interval); // Cleanup interval on component unmount
   }, [images.length]);
